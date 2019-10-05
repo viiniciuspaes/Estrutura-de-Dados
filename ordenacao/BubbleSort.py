@@ -5,3 +5,4 @@ def bubbleSort(lista):
                 temporario = lista[i]
                 lista[i] = lista[i + 1]
                 lista[i + 1] = temporario
+    return lista
